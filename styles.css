@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-#main_div {
+#mainx16 {
   display: flex;
   flex-wrap: wrap;
   width: 800px;
@@ -35,4 +35,19 @@
 
 #cruz:hover {
   background-color: rgb(177, 177, 177);
+}
+
+.popup_content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#btn-popup1,
+#btn-popup2,
+#btn-popup3 {
+  color: black;
+  padding: 5px 10px;
+  margin: 10px;
 }
