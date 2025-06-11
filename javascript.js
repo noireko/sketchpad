@@ -17,3 +17,11 @@ btn.style.padding = "10px 20px";
 btn.style.color = "black";
 btn.style.border = "1px solid black";
 btn.textContent = "Grid";
+
+const popup = document.getElementById("popup");
+
+function showPopup() {
+  popup.style.display = "block";
+}
+
+btn.addEventListener("click", showPopup);

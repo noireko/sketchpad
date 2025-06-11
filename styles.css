@@ -11,7 +11,11 @@
   height: 800px;
 }
 
-.popup {
+#button:hover {
+  background-color: rgb(177, 177, 177);
+}
+
+#popup {
   border: 1px solid black;
   height: 100px;
   width: 300px;
@@ -20,11 +24,15 @@
   display: none;
 }
 
-.cruz {
+#cruz {
   border: 1px solid black;
   width: 20px;
   height: 20px;
   position: absolute;
   right: 0;
   text-align: center;
+}
+
+#cruz:hover {
+  background-color: rgb(177, 177, 177);
 }
