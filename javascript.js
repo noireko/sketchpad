@@ -1,5 +1,5 @@
 const main_div = document.getElementById("main_div");
-
+const body = document.querySelector("body");
 for (div_child = 0; div_child < 256; div_child++) {
   const newDiv = document.createElement("div");
   newDiv.style.backgroundColor = "white";
@@ -11,3 +11,9 @@ for (div_child = 0; div_child < 256; div_child++) {
     event.target.style.backgroundColor = "black";
   });
 }
+
+const btn = document.getElementById("button");
+btn.style.padding = "10px 20px";
+btn.style.color = "black";
+btn.style.border = "1px solid black";
+btn.textContent = "Grid";

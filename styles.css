@@ -10,3 +10,21 @@
   width: 800px;
   height: 800px;
 }
+
+.popup {
+  border: 1px solid black;
+  height: 100px;
+  width: 300px;
+  margin-bottom: 20px;
+  position: relative;
+  display: none;
+}
+
+.cruz {
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
