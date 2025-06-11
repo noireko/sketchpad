@@ -18,7 +18,7 @@
 #popup {
   border: 1px solid black;
   height: 100px;
-  width: 300px;
+  width: 350px;
   margin-bottom: 20px;
   position: relative;
   display: none;
@@ -44,6 +44,7 @@
   justify-content: center;
 }
 
+#btn-popup0,
 #btn-popup1,
 #btn-popup2,
 #btn-popup3 {
