@@ -19,9 +19,12 @@ btn.style.border = "1px solid black";
 btn.textContent = "Grid";
 
 const popup = document.getElementById("popup");
+const cross = document.getElementById("cruz");
 
-function showPopup() {
+btn.addEventListener("click", function (e) {
   popup.style.display = "block";
-}
+});
 
-btn.addEventListener("click", showPopup);
+cross.addEventListener("click", function (e) {
+  popup.style.display = "none";
+});
